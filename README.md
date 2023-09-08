@@ -2,6 +2,8 @@
 
 ## Packages
 
+- dotfile-manager
+
 ## How to install
 
 1. Add the following lines to your `/etc/nixos/configuration.nix`
@@ -18,6 +20,7 @@ nixpkgs.config.packageOverrides = pkgs: {
 
 ```nix
 environment.systemPackages = with pkgs; [
+  nur.repos.Adamekka.dotfile-manager
 ]
 ```
 
