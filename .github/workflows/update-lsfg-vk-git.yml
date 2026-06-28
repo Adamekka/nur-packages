@@ -2,7 +2,7 @@ name: Update lsfg-vk-git
 
 on:
   schedule:
-    - cron: "30 5 * * *"
+    - cron: "00 9 * * *"
   workflow_dispatch:
 
 permissions:
