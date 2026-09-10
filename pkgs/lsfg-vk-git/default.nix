@@ -62,7 +62,7 @@ llvmPackages.stdenv.mkDerivation {
   '';
 
   passthru.updateScript = unstableGitUpdater {
-    branch = "develop";
+    branch = "migration";
     # Upstream's stable tags are still 1.x; this package follows 2.0 development.
     hardcodeZeroVersion = true;
     url = "https://github.com/PancakeTAS/lsfg-vk.git";
