@@ -22,6 +22,7 @@ in
 
   # MARK: Packages
 
+  alvr-git = pkgs.callPackage ./pkgs/alvr-git { inherit maintainer; };
   chatgpt = pkgs.callPackage ./pkgs/chatgpt { inherit maintainer; };
   gdstash = pkgs.callPackage ./pkgs/gdstash { inherit maintainer; };
   github-desktop = pkgs.callPackage ./pkgs/github-desktop { inherit maintainer; };
