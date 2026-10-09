@@ -105,6 +105,7 @@ in
       vulkanHeaders = lib.getDev vulkan-headers;
       x264 = lib.getDev x264;
     })
+    ./use-bundled-adb.patch
   ];
 
   pname = "alvr-git";
